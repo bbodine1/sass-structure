@@ -1,0 +1,26 @@
+// _base.scss 			./partials
+////////////////////////////////////////////////////////////
+
+
+// Include Modules first. These are scss files that will
+// not produce actual scss. Only Mixins, functions, etc.
+@import 'utilities/all';
+
+
+// Our variables are set here
+@import 'variables';
+
+
+// Include Modules first. These are scss files that will
+// not produce actual scss. Only Mixins, functions, etc.
+@import 'modules/all';
+
+
+// Include all handwritten scss here. Order of importance
+// is generally needed but not allways necessary.
+@import 'general';
+
+
+// Include vendor scss here that will be used for adding
+// in custom elements or plugins that were not created.
+@import 'vendor/all';
